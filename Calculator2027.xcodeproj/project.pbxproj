@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE4AA39B308D8F6A003FFE22 /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4AA39A308D8F6A003FFE22 /* CalculatorBrain.swift */; };
 		CE611B6B307F01B6000F1FD5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE611B6A307F01B6000F1FD5 /* AppDelegate.swift */; };
 		CE611B6D307F01B6000F1FD5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE611B6C307F01B6000F1FD5 /* SceneDelegate.swift */; };
 		CE611B6F307F01B6000F1FD5 /* CalcvulatorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE611B6E307F01B6000F1FD5 /* CalcvulatorController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE4AA39A308D8F6A003FFE22 /* CalculatorBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
 		CE611B67307F01B6000F1FD5 /* Calculator2027.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator2027.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE611B6A307F01B6000F1FD5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE611B6C307F01B6000F1FD5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +78,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE4AA399308D8F45003FFE22 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CE4AA39A308D8F6A003FFE22 /* CalculatorBrain.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		CE611B5E307F01B6000F1FD5 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +109,7 @@
 		CE611B69307F01B6000F1FD5 /* Calculator2027 */ = {
 			isa = PBXGroup;
 			children = (
+				CE4AA399308D8F45003FFE22 /* Models */,
 				CE611B9B307F038B000F1FD5 /* Controllers */,
 				CE611B70307F01B6000F1FD5 /* Main.storyboard */,
 				CE611B9A307F02FA000F1FD5 /* System files */,
@@ -276,6 +287,7 @@
 			files = (
 				CE611B6F307F01B6000F1FD5 /* CalcvulatorController.swift in Sources */,
 				CE611B6B307F01B6000F1FD5 /* AppDelegate.swift in Sources */,
+				CE4AA39B308D8F6A003FFE22 /* CalculatorBrain.swift in Sources */,
 				CE611B6D307F01B6000F1FD5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
